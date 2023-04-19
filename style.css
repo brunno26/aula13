@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+    
+    
+
+}
+.card{
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 44%, rgba(238,174,202,1) 100%);
+
+}
+img{
+    width: 70%;
+}
+h1{
+    color: aliceblue;
+    font-size: 20px;
+}
